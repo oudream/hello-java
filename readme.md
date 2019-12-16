@@ -1,16 +1,18 @@
 
 ## java home
+
 - https://www.oracle.com/java/
 - https://www.oracle.com/technetwork/java/javase/downloads/index.html
 - https://www.oracle.com/java/technologies/javaee-8-sdk-downloads.html
 
 
 ## tutorial
+
 - https://docs.oracle.com/javase/tutorial/
 - https://javaee.github.io/tutorial/
 
 
-## url
+## referto url
 
 - https://www.javatpoint.com/java-tutorial
 - https://github.com/BruceEckel/OnJava8-Examples
