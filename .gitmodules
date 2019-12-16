@@ -1,0 +1,24 @@
+[submodule "referto/java-beginners"]
+	path = referto/java-beginners
+	url = https://github.com/caveofprogramming/java-beginners.git
+[submodule "referto/tutorial-examples"]
+	path = referto/tutorial-examples
+	url = https://github.com/javaee/tutorial-examples.git
+[submodule "referto/javaee7-samples"]
+	path = referto/javaee7-samples
+	url = https://github.com/javaee-samples/javaee7-samples.git
+[submodule "referto/javaee8-samples"]
+	path = referto/javaee8-samples
+	url = https://github.com/javaee-samples/javaee8-samples.git
+[submodule "referto/java-a-course-for-beginners"]
+	path = referto/java-a-course-for-beginners
+	url = https://github.com/in28minutes/java-a-course-for-beginners.git
+[submodule "referto/journaldev"]
+	path = referto/journaldev
+	url = https://github.com/journaldev/journaldev.git
+[submodule "referto/OnJava8-Examples"]
+	path = referto/OnJava8-Examples
+	url = https://github.com/BruceEckel/OnJava8-Examples.git
+[submodule "referto/glassfish-samples"]
+	path = referto/glassfish-samples
+	url = https://github.com/javaee/glassfish-samples.git
