@@ -22,3 +22,9 @@
 [submodule "referto/glassfish-samples"]
 	path = referto/glassfish-samples
 	url = https://github.com/javaee/glassfish-samples.git
+[submodule "referto/java8-tutorial"]
+	path = referto/java8-tutorial
+	url = https://github.com/winterbe/java8-tutorial.git
+[submodule "referto/java-11-examples"]
+	path = referto/java-11-examples
+	url = https://github.com/jveverka/java-11-examples
