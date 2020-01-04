@@ -1,0 +1,25 @@
+plugins {
+    id 'java'
+
+    id 'application'
+}
+
+version 'unspecified'
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testCompile group: 'junit', name: 'junit', version: '4.12'
+
+    // https://mvnrepository.com/artifact/org.junit.jupiter/junit-jupiter-api
+    testCompile group: 'org.junit.jupiter', name: 'junit-jupiter-api', version: '5.5.2'
+}
+
+application {
+    // Define the main class for the application.
+    mainClassName = 'hello.annotation.java300.Demo'
+}
