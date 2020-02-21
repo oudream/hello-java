@@ -2,6 +2,16 @@
 
 #!/usr/bin/env bash
 
+### install java on ubuntu
+sudo apt install openjdk-8-jdk
+# sudo apt install openjdk-11-jdk
+vim /etc/environment # or /etc/profile
+export JAVA_HOME=/usr/lib/jvm/java-8-openjdk-amd64
+# export JAVA_HOME=/usr/lib/jvm/java-11-openjdk-amd64
+export PATH=$PATH:$JAVA_HOME/bin
+
+
+### java variable on macos
 export JAVA_HOME=/usr/lib/jvm/java-8-oracle
 export JRE_HOME=${JAVA_HOME}/jre
 export CLASSPATH=.:${JAVA_HOME}/lib:${JRE_HOME}/lib
