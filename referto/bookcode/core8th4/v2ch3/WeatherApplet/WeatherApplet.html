@@ -1,0 +1,31 @@
+
+<HTML>
+
+  <HEAD>
+    <TITLE>Cay Horstmann's Weather Report Applet</TITLE>
+  </HEAD>
+
+  <BODY>
+
+    <H1>A Weather Report Applet </H1>
+
+    <P>Select a state and report type, and click on the &quot;Get report&quot;
+      button. You will get an up-to-date weather report, courtesy of the
+      National Oceanic and Atmospheric Administration. </P>
+
+    <P>The point of this applet is not to get a beautiful report--there are
+      many web sites that do that--but to show how an applet can retrieve
+      information from another web server. </P>
+    <HR>
+
+    <APPLET
+    CODE="WeatherApplet.class" WIDTH="600" HEIGHT="400">
+      <PARAM NAME="queryBase" VALUE="http://iwin.nws.noaa.gov/iwin/">
+    </APPLET>
+    <HR>
+    <UL>
+      <LI><A HREF="WeatherApplet.java">The source.</A> </LI>
+      <LI><A HREF="ProxySrv.java">The source for the proxy server.</A> </LI>
+    </UL>
+  </BODY>
+</HTML>

@@ -1,0 +1,7 @@
+Name: ChartBean.class 
+Java-Bean: True 
+
+
+
+
+

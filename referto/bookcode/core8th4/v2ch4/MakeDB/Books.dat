@@ -1,0 +1,38 @@
+Title char(60), ISBN char(13), Publisher_Id char(5), URL char(80), Price double
+'Beyond HTML', '0-07-882198-3', '00788', '', 27.95
+'10 Minute Guide to HTML', '0-78970541-9', '07897', 'www.mcp.com/cgi-bin/bag?isbn=1-07897-0541-9&userID=&last=/bookstore', 15.00
+'Advanced HTML & CGI Writer''s Companion', '0-12623540-6', '01262', '', 29.95
+'Creating Cool Web Pages with HTML', '1-56-884454-9', '15688', 'db.www.idgbooks.com/database/book/isbn/generic-book.tmpl?query=1-56884-454-9', 19.99
+'Creating Web Pages for Dummies', '1-56884645-2', '15688', 'db.www.idgbooks.com/database/book/isbn/generic-book.tmpl?query=1-56884-645-2', 20.00
+'How to Use HTML 3', '1-56276390-3', '15627', 'www.mcp.com/169486041707673/cgi-bin/bag?isbn=1-56276-390-3&last=/bookstore', 24.99
+'HTML 3 How-To', '1-57-169050-7', '15716', 'w3.waite.com/waite/waite/books.new/HTML_3_How_To/html/html3htcov.html', 39.99
+'HTML 3 Interactive Course', '1-57169066-2', '15716', 'w3.waite.com/waite/waite/books.new/HTML_3_Interactive_Course/html/h3iccov.html', 39.99
+'HTML 3.0 Manual of Style (2nd Ed.)', '1-56-276352-0', '15627', 'www.mcp.com/zdpress/features/html3.html', 24.95
+'HTML by Example', '0-78970812-4', '07897', 'www.mcp.com/26417620761498/cgi-bin/bag?isbn=0-7897-0812-4&last=/bookstore', 34.99
+'HTML CD- An Internet Publishing Toolkit - Windows Version', '0-13-232331-1', '01356', 'www.prenhall.com/013/232330/ptr/23233-0.html', 40.00
+'HTML for Dummies 2''nd Edition', '1-56-884647-9', '15688', 'db.www.idgbooks.com/database/book/isbn/generic-book.tmpl?query=1-56884-330-5', 30.00
+'HTML For Dummies Quick Reference', '1-56884990-7', '15688', 'db.www.idgbooks.com/database/book/isbn/generic-book.tmpl?query=1-56884-990-7', 12.99
+'HTML For Fun and Profit: Gold Signature Edition', '0-13-242488-6', '01356', 'www.sun.com/smi/ssoftpress/books/Morris/Morris.html', 40.00
+'HTML for the World Wide Web: Visual Quick Start Guide', '0-02188448-8', '00218', 'www.peachpit.com/peachpit/titles/catalog/88448.html', 17.95
+'HTML In Action', '1-55615948-X', '15561', 'www.microsoft.com/MSPRESS/BOOKS/DES/5-948-xA.HTM', 29.95
+'HTML Plus!', '0-53451626-2', '05345', 'scholar.lib.vt.edu/jpowell/htmlplus/', 36.00
+'HTML Publishing for Netscape, Windows Edition', '1-56-604288-7', '15660', 'ephraim.vmedia.com/catalog/', 39.95
+'HTML Publishing on the Internet', '0-07-912100-4', '00791', '', 45.00
+'HTML Quick Reference', '0-78970867-1', '07897', 'www.mcp.com/282320801523718/cgi-bin/bag?isbn=0-7897-0867-1&last=/bookstore', 17.99
+'HTML Sourcebook, 2nd Ed.', '0-47-114242-5', '04711', 'www.wiley.com:80/compbooks/k19.html', 30.00
+'HTML Visual Quick Reference', '0-07-970411-0', '07897', 'www.mcp.com/cgi-bin/bag?isbn=0-7897-0411-0&userID=75136573&last=/bookstore', 15.00
+'HTML Web Publisher''s Construction Kit', '1-57-169018-2', '15716', 'found.cs.nyu.edu/downing/htmlbook.html', 36.95
+'Hybrid HTML Design', '1-56205617-4', '15620', 'www.mcp.com/229881981168830/cgi-bin/bag?isbn=1-56205-617-4&last=/bookstore', 35.00
+'More HTML For Dummies', '1-56-88499-66', '15688', 'db.www.idgbooks.com/database/book/isbn/generic-book.tmpl?query=1-56884-996-6', 22.99
+'Netscape and HTML EXplorer', '0-18-83577578', '18835', 'www.coriolis.com/bookstor/cgbsnet/netshtml/netshtml.htm', 39.99
+'Teach Yourself More Web Publishing with HTML in a Week', '1-57-521005-3', '15752', 'slack.lne.com/Web/Books/More_HTML/', 29.99
+'Teach Yourself Web Publishing with HTML 3.0 in a Week, 2e', '1-57-521064-9', '15752', 'www.mcp.com/cgi-bin/bag?isbn=1-57521-064-9&last=/bookstore', 29.99
+'Teach Yourself Web Publishing with HTML 3.2 in 14 Days', '1-57-521096-7', '15752', 'www.mcp.com/274423342580643/cgi-bin/bag?isbn=1-57521-096-7&last=/bookstore', 59.99
+'The Web Page Recipe Book', '0-13460296-X', '01356', 'www.prenhall.com/~ray/013/460295/ptr/46029-5.html', 29.95
+'The Web Page Workbook', '1-88790205-8', '18879', 'www.fbeedle.com/bookinfo/05-8.html', 19.95
+'Using HTML', '0-78-970622-9', '07897', 'www.mcp.com/2738492176554/cgi-bin/bag?isbn=0-7897-0622-9&last=/bookstore', 24.99
+'HTML: The Definitive Guide', '1-56-592175-5', '15659', 'www.ora.com/www/item/html.html', 29.95
+'Web Site Wizardry', '1-88-357787-X', '18835', '', 34.99
+'Webmaster''s Guide to HTML', '0-07-912273-6', '00791', 'www.ddx.com/htmltoc.html', 34.95
+'Using HTML Special Edition', '0-78-970758-6', '07897', 'www.mcp.com/que', 49.99
+'Foundations of WWW Programming with HTML and CGI', '1-56884703-3', '15688', '', 39.99

@@ -1,0 +1,4 @@
+Core Java 1.2: Fundamentals
+Cay Horstmann and Gary Cornell
+Copyright (C) 1999
+SunSoft Press

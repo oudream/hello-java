@@ -1,0 +1,3 @@
+grant codeBase "file:WordCheck.jar"
+{   permission java.security.AllPermission;
+};

@@ -1,0 +1,3 @@
+interface SysProp
+{  string getProperty(in string name);
+};

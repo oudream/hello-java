@@ -1,0 +1,8 @@
+Name: RangeBean.class
+Java-Bean: True 
+
+Name: IntTextBean.class
+Java-Bean: True 
+
+
+

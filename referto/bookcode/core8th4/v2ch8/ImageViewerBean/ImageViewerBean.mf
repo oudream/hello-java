@@ -1,0 +1,2 @@
+Name: ImageViewerBean.class 
+Java-Bean: True 

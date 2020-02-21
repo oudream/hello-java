@@ -1,0 +1,4 @@
+Name: SpinBean.class 
+Java-Bean: True 
+
+
