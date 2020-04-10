@@ -4,13 +4,11 @@ plugins {
 	id 'war'
 }
 
-
 apply plugin: 'java'
 
 repositories {
 	mavenCentral()
 }
-
 
 dependencies {
 	testImplementation 'junit:junit:4.12'
@@ -22,14 +20,13 @@ test {
 	maxHeapSize = '1G'
 }
 
-
-
 application {
-	mainClassName = 'hello.java.lang.loop.SimpleA'
+	// Define the main class for the application.
+	mainClassName = 'hello.java.lang.string.SimpleA'
 }
 
 jar {
 	manifest {
-		attributes 'Main-Class': 'hello.java.lang.loop.SimpleA'
+		attributes 'Main-Class': 'hello.java.lang.string.SimpleA'
 	}
 }

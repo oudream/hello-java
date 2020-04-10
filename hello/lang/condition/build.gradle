@@ -1,15 +1,3 @@
-buildscript {
-	ext {
-// 		springBootVersion = '2.1.8.RELEASE'
-	}
-	repositories {
-		mavenCentral()
-	}
-	dependencies {
-// 		classpath("org.springframework.boot:spring-boot-gradle-plugin:${springBootVersion}")
-	}
-}
-
 plugins {
 	id 'application'
 
@@ -17,29 +5,16 @@ plugins {
 }
 
 apply plugin: 'java'
-// apply plugin: 'eclipse'
-// apply plugin: 'org.springframework.boot'
-// apply plugin: 'io.spring.dependency-management'
 
 group = 'hello.lang.condition'
-//version = '0.0.1-SNAPSHOT'
-
-//sourceCompatibility = 11
-//targetCompatibility = 11
 
 repositories {
 	mavenCentral()
-// 	maven { url "https://repo.spring.io/snapshot" }
-// 	maven { url "https://repo.spring.io/milestone" }
 }
 
 
 dependencies {
 	testImplementation 'junit:junit:4.12'
-
-// 	compile('org.springframework.boot:spring-boot-starter-web')
-// 	compile('io.springfox:springfox-swagger2:2.9.2')
-// 	testCompile('org.springframework.boot:spring-boot-starter-test')
 }
 
 test {
@@ -50,11 +25,11 @@ test {
 
 application {
 	// Define the main class for the application.
-	mainClassName = 'hello.lang.condition.SimpleA'
+	mainClassName = 'hello.java.lang.condition.SimpleA'
 }
 
 jar {
 	manifest {
-		attributes 'Main-Class': 'hello.lang.condition.SimpleA'
+		attributes 'Main-Class': 'hello.java.lang.condition.SimpleA'
 	}
 }
