@@ -9,9 +9,14 @@
 
 rootProject.name = 'hello-java'
 
-include(':hello:lang:condition')
-include(':hello:lang:loop')
-include(':hello:org-w3c:dom')
+include 'hello:lang:condition'
+include 'hello:lang:loop'
+include 'hello:org-w3c:dom'
 include 'hello:lang:annotation'
+include 'hello:lang:string'
+findProject(':hello:lang:condition')?.name = 'condition'
+findProject(':hello:lang:loop')?.name = 'loop'
 findProject(':hello:lang:annotation')?.name = 'annotation'
+findProject(':hello:lang:string')?.name = 'string'
+findProject(':hello:org-w3c:dom')?.name = 'dom'
 

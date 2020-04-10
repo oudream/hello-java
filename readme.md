@@ -35,4 +35,8 @@
 - https://github.com/winterbe/java8-tutorial
 
 
-## 
+## book
+- [https://lingcoder.github.io/OnJava8/#/sidebar](https://lingcoder.github.io/OnJava8/#/sidebar)
+- [https://github.com/LingCoder/OnJava8](https://github.com/LingCoder/OnJava8)
+- [https://sjsdfg.github.io/effective-java-3rd-chinese/#/README](https://sjsdfg.github.io/effective-java-3rd-chinese/#/README)
+- [https://github.com/sjsdfg/CS-Notes-PDF](https://github.com/sjsdfg/CS-Notes-PDF)
