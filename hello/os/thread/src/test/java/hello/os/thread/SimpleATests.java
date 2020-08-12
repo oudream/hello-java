@@ -1,4 +1,4 @@
-package hello.lang.a;
+package hello.os.thread;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;

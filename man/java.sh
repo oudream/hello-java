@@ -2,6 +2,10 @@
 
 #!/usr/bin/env bash
 
+### install java on windows
+# C:\Program Files (x86)\Common Files\Oracle\Java\javapath
+
+
 ### install java on ubuntu
 sudo apt install openjdk-8-jdk
 # sudo apt install openjdk-11-jdk

@@ -1,11 +1,8 @@
-package hello.java.lang.annotation.eugen.test;
+package hello.java.lang.annotation.eugen.customannotations;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertThrows;
 
-import hello.java.lang.annotation.eugen.customannotations.JsonSerializationException;
-import hello.java.lang.annotation.eugen.customannotations.ObjectToJsonConverter;
-import hello.java.lang.annotation.eugen.customannotations.Person;
 import org.junit.jupiter.api.Test;
 
 public class JsonSerializerUnitTest {

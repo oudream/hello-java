@@ -1,11 +1,7 @@
 package hello.java.lang.annotation.java300;
 
 /**
- * 说明：
  *
- * @Auther: 11432_000
- * @Date: 2019/1/18 13:39
- * @Description:
  */
 public class Test01 {
 

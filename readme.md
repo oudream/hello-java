@@ -11,7 +11,9 @@
 - https://docs.oracle.com/javase/tutorial/
 - https://javaee.github.io/tutorial/
 - https://www.javatpoint.com/java-tutorial
-
+- https://www.javatpoint.com/cpp-vs-java
+- OO
+    - https://www.runoob.com/java/java-inheritance.html
 
 ## demos
 

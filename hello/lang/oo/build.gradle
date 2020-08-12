@@ -1,0 +1,33 @@
+plugins {
+	id 'application'
+
+	id 'war'
+}
+
+apply plugin: 'java'
+
+repositories {
+	mavenCentral()
+}
+
+dependencies {
+	testImplementation('org.junit.jupiter:junit-jupiter:5.6.2')
+}
+
+test {
+	useJUnitPlatform()
+	testLogging {
+		events "passed", "skipped", "failed"
+	}
+}
+
+application {
+	// Define the main class for the application.
+	mainClassName = 'hello.java.lang.oo.SimpleA'
+}
+
+jar {
+	manifest {
+		attributes 'Main-Class': 'hello.java.lang.oo.SimpleA'
+	}
+}
