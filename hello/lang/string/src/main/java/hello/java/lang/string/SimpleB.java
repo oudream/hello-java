@@ -10,6 +10,7 @@ class SimpleB {
         String str2 = new String("Lance");
         String str3 = str2; //引用传递，str3直接指向st2的堆内存地址
         String str4 = "Lance";
+        String str5 = "123abc欧阳你好！";
         /**
          *  ==:
          * 基本数据类型：比较的是基本数据类型的值是否相同
@@ -23,5 +24,6 @@ class SimpleB {
         System.out.println(str1.equals(str2));
         System.out.println(str1.equals(str3));
         System.out.println(str1.equals(str4));
+        System.out.println(str5);
     }
 }

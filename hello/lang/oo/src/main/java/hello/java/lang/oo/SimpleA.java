@@ -89,6 +89,17 @@ class SimpleA{
 
 //        helloResource1();
 
+//        helloStringBuilder1();
+
+//        System.out.println(String.valueOf(System.in.read()));
+//        helloOverride1();
+
+        ModifyA.helloModify1();
+
+        System.out.println("Hello OO end.");
+    }
+
+    private static void helloStringBuilder1() {
         StringBuilder s = new StringBuilder();
         for (int i = 0; i < 1000 * 1000 * 2; i++) {
             s.append("abcdefghijklabcdefghijklabcdefghijklabcdefghijklabcdefghijkl");
@@ -96,10 +107,5 @@ class SimpleA{
         System.out.println(s.length());
         System.out.println(s.length());
         System.out.println(s.length());
-
-        System.out.println(String.valueOf(System.in.read()));
-        helloOverride1();
-
-        System.out.println("Hello OO end.");
     }
 }

@@ -1,0 +1,52 @@
+buildscript {
+	ext {
+	}
+	repositories {
+		mavenCentral()
+	}
+	dependencies {
+	}
+}
+
+
+plugins {
+	id 'application'
+}
+
+
+apply plugin: 'java'
+
+group = 'hello.db.mysql'
+//version = '0.0.1'
+
+
+repositories {
+	mavenCentral()
+}
+
+
+dependencies {
+	testImplementation 'junit:junit:4.12'
+
+	// https://mvnrepository.com/artifact/mysql/mysql-connector-java
+	compile group: 'mysql', name: 'mysql-connector-java', version: '5.1.36'
+}
+
+
+test {
+	useJUnit()
+
+	maxHeapSize = '1G'
+}
+
+
+application {
+	// Define the main class for the application.
+	mainClassName = 'hello.db.mysql.SimpleA'
+}
+
+jar {
+	manifest {
+		attributes 'Main-Class': 'hello.db.mysql.SimpleA'
+	}
+}
