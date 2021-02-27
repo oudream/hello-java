@@ -27976,7 +27976,7 @@ http://www.iso.ch/iso/en/prods-services/iso3166ma/02iso-3166-code-lists/list-en1
 			<xs:enumeration value="SK"/>
 			<xs:enumeration value="SI"/>
 			<xs:enumeration value="SB"/>
-			<xs:enumeration value="SO"/>
+			<xs:enumeration value="SimpleA"/>
 			<xs:enumeration value="ZA"/>
 			<xs:enumeration value="GS"/>
 			<xs:enumeration value="ES"/>

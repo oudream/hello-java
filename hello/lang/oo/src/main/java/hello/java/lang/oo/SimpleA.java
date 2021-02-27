@@ -94,7 +94,8 @@ class SimpleA{
 //        System.out.println(String.valueOf(System.in.read()));
 //        helloOverride1();
 
-        ModifyA.helloModify1();
+//        ModifyA.helloModify1();
+        ObjectId.helloObjectId1();
 
         System.out.println("Hello OO end.");
     }

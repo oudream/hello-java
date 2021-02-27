@@ -1,0 +1,51 @@
+buildscript {
+	ext {
+	}
+	repositories {
+		mavenCentral()
+	}
+	dependencies {
+	}
+}
+
+
+plugins {
+	id 'application'
+}
+
+
+apply plugin: 'java'
+
+group = 'hello.lang.filesystem'
+//version = '0.0.1'
+
+
+repositories {
+	mavenCentral()
+// 	maven { url "https://repo.spring.io/snapshot" }
+// 	maven { url "https://repo.spring.io/milestone" }
+}
+
+
+dependencies {
+	testImplementation 'junit:junit:4.12'
+}
+
+
+test {
+	useJUnit()
+
+	maxHeapSize = '1G'
+}
+
+
+application {
+	// Define the main class for the application.
+	mainClassName = 'hello.lang.filesystem.SimpleA'
+}
+
+jar {
+	manifest {
+		attributes 'Main-Class': 'hello.lang.filesystem.SimpleA'
+	}
+}

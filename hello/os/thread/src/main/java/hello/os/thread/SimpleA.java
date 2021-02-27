@@ -1,72 +1,66 @@
 package hello.os.thread;
 
-import java.net.Inet4Address;
+class MyThread implements Runnable {
+    String message;
+    String name; // name of thread
 
-class ClassA {
-    public String name = "123";
-}
+    Thread t;
 
-class Common{
-    public ClassA a = new ClassA(); // ref
+    MyThread(String threadname) {
+        name = threadname;
+        t = new Thread(this, name);
+        System.out.println("New thread: " + t);
+        t.start();
+    }
 
-    public void show(){
-        System.out.println(a.name);
+    public void run() {
+        try {
+            for (int i = 5; i > 0; i--) {
+                System.out.println(name + ": " + i);
+                Thread.sleep(1000);
+            }
+        } catch (InterruptedException e) {
+            System.out.println(name + " interrupted.");
+        }
+        System.out.println(name + " exiting.");
+        message = "finish"+name;
     }
 }
 
+public class SimpleA {
+    public static void main(String args[]) {
+        MyThread ob1 = new MyThread("One");
+        MyThread ob2 = new MyThread("Two");
+        MyThread ob3 = new MyThread("Three");
 
-class Table{
-    void printTable(int n, Common c){//method not synchronized
-        for(int i=1;i<=500;i++){
-            System.out.println(n*i);
-            try{
-                c.show();
-//                System.out.println(Common.a.name);
-//                Thread.sleep(0);
-            }catch(Exception e){System.out.println(e);}
+        System.out.println("Thread One is alive: " + ob1.t.isAlive());
+        System.out.println("Thread Two is alive: " + ob2.t.isAlive());
+        System.out.println("Thread Three is alive: " + ob3.t.isAlive());
+
+        String message1 = "";
+        String message2 = "";
+        String message3 = "";
+        try {
+            System.out.println("Waiting for threads to finish.");
+            ob1.t.join();
+            ob2.t.join();
+            ob3.t.join();
+            message1 = ob1.message;
+            message2 = ob2.message;
+            message3 = ob3.message;
+        } catch (InterruptedException e) {
+            System.out.println("Main thread Interrupted");
         }
 
+        System.out.println("Thread One is alive: " + ob1.t.isAlive());
+        System.out.println("Thread Two is alive: " + ob2.t.isAlive());
+        System.out.println("Thread Three is alive: " + ob3.t.isAlive());
+
+        System.out.println(message1);
+        System.out.println(message2);
+        System.out.println(message3);
+
+        System.out.println("Main thread exiting.");
     }
 }
 
-class MyThread1 extends Thread{
-    Table t;
-    Common c;
-    MyThread1(Table t, Common c){
-        this.t=t;
-        this.c = c;
-    }
-    public void run(){
-        t.printTable(5, c);
-    }
-
-}
-class MyThread2 extends Thread{
-    Table t;
-    Common c;
-    MyThread2(Table t, Common c){
-        this.t=t;
-        this.c = c;
-    }
-    public void run(){
-        t.printTable(100, c);
-    }
-}
-
-class SimpleA{
-    public static void main(String args[]){
-//        Table obj = new Table();//only one object
-//        Common c = new Common();
-//        MyThread1 t1=new MyThread1(obj, c);
-//        MyThread2 t2=new MyThread2(obj, c);
-//        t1.start();
-//        t2.start();
-
-        Integer i1 = 128;
-        Integer j1 = 128;
-        Integer i2 = -129;
-        Integer j2 = -129;
-        System.out.println(i1==j1);
-        System.out.println(i2==j2);
-    }
-}  

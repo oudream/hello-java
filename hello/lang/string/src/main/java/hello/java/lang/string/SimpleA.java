@@ -113,20 +113,33 @@ class SimpleA{
         System.out.println(dt.format(formatter));
     }
 
-    public static void helloRount1() {
+    public static int stortId = 0;
+
+    public static void helloRount1(int k) {
         int total = 348;
         int pageSize = 20;
+        int stortId = 2;
         System.out.println((int)Math.ceil((double)total / pageSize));
     }
 
+
     public static void main(String args[]){
         System.out.println("begin:");
+        String s = "副本";
+        try {
+            byte[] bs = s.getBytes("GBK");
+            String s1 = new String(s.getBytes("GBK"), "GBK");
+            char dst[] = new char[s1.length()];
+            s1.getChars(0, s1.length(), dst, 0);
+            System.out.println(dst[0]);
+        } catch (Exception e) {
+        }
 //        SimpleB.helloString1();
 //        helloStringJoin1();
 //        helloJson1();
 //        helloMap1();
 //        helloDate1();
-        helloRount1();
+        helloRount1(1);
         System.out.println("end.");
     }
 }  
