@@ -1,0 +1,62 @@
+buildscript {
+	ext {
+	}
+	repositories {
+		mavenCentral()
+	}
+	dependencies {
+	}
+}
+
+
+plugins {
+	id 'application'
+}
+
+
+apply plugin: 'java'
+
+group = 'hello.poi.excel'
+//version = '0.0.1'
+
+
+repositories {
+	mavenCentral()
+// 	maven { url "https://repo.spring.io/snapshot" }
+// 	maven { url "https://repo.spring.io/milestone" }
+}
+
+
+dependencies {
+// https://mvnrepository.com/artifact/junit/junit
+	testImplementation group: 'junit', name: 'junit', version: '4.12'
+
+// https://mvnrepository.com/artifact/org.apache.poi/poi
+	implementation group: 'org.apache.poi', name: 'poi', version: '3.17'
+
+// https://mvnrepository.com/artifact/org.apache.poi/poi-ooxml
+	implementation group: 'org.apache.poi', name: 'poi-ooxml', version: '3.17'
+
+// https://mvnrepository.com/artifact/com.alibaba/fastjson
+	implementation group: 'com.alibaba', name: 'fastjson', version: '1.2.70'
+
+}
+
+
+test {
+	useJUnit()
+
+	maxHeapSize = '1G'
+}
+
+
+application {
+	// Define the main class for the application.
+	mainClassName = 'hello.poi.excel.SimpleA'
+}
+
+jar {
+	manifest {
+		attributes 'Main-Class': 'hello.poi.excel.SimpleA'
+	}
+}

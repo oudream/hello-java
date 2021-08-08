@@ -1,0 +1,37 @@
+plugins {
+	id 'application'
+
+	id 'war'
+}
+
+apply plugin: 'java'
+
+repositories {
+	mavenCentral()
+}
+
+dependencies {
+	testImplementation 'junit:junit:4.12'
+
+	// https://mvnrepository.com/artifact/com.fasterxml.jackson.core/jackson-databind
+	compile group: 'com.fasterxml.jackson.core', name: 'jackson-core', version: '2.6.1'
+	compile group: 'com.fasterxml.jackson.core', name: 'jackson-databind', version: '2.6.1'
+	compile group: 'com.fasterxml.jackson.core', name: 'jackson-annotations', version: '2.6.1'
+}
+
+test {
+	useJUnit()
+
+	maxHeapSize = '1G'
+}
+
+application {
+	// Define the main class for the application.
+	mainClassName = 'hello.java.lang.container.SimpleA'
+}
+
+jar {
+	manifest {
+		attributes 'Main-Class': 'hello.java.lang.container.SimpleA'
+	}
+}
